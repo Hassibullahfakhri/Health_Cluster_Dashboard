@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.powerbi-links {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.powerbi-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.powerbi-links a {
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+
+.powerbi-links a:hover {
+    text-decoration: underline;
+}
