@@ -31,8 +31,8 @@ h1 {
 }
 
 .logo {
-    max-width: 20px;  /* Reduce the logo size */
-    max-height: 20px; /* Make sure the logo height stays proportional */
+    max-width: 40px;  /* Reduce the logo size */
+    max-height: 40px; /* Make sure the logo height stays proportional */
     margin-right: 10px;
 }
 
