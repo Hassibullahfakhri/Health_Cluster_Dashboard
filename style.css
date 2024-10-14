@@ -18,6 +18,19 @@ h1 {
     margin: 0;
 }
 
+/* Logo Styles */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100px; /* Adjust the size */
+    margin-right: 15px;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -43,15 +56,19 @@ nav ul li a:hover {
     background-color: #003d80;
 }
 
+/* Main Content */
 main {
     margin: 20px;
 }
 
 iframe {
+    width: 100%;  /* Make iframe take full width */
+    height: calc(100vh - 180px); /* Full screen height minus header and footer size */
     border: 2px solid #ddd;
     border-radius: 8px;
 }
 
+/* Footer */
 footer {
     background-color: #004080;
     color: white;
