@@ -1,24 +1,63 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
-.powerbi-links {
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
     text-align: center;
-    margin-top: 50px;
 }
 
-.powerbi-links ul {
+h1 {
+    margin: 0;
+}
+
+nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
-.powerbi-links a {
-    font-size: 20px;
-    color: blue;
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
     text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: #0059b3;
+    border-radius: 5px;
 }
 
-.powerbi-links a:hover {
-    text-decoration: underline;
+nav ul li a:hover {
+    background-color: #003d80;
+}
+
+main {
+    margin: 20px;
+}
+
+iframe {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
